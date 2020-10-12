@@ -28,12 +28,27 @@ class ViewController: UIViewController {
 
     @IBAction func addButtonAction(_ sender: Any) {
         let textField = UITextField()
-        
         textField.backgroundColor = .systemGray6
         textField.heightAnchor.constraint(equalToConstant: 25).isActive = true
+//        let button = UIButton()
+//        button.setTitle("Delete", for: .normal)
+//        button.setTitleColor(.black, for: .normal)
+//        button.addTarget(self, action: #selector(doSomething), for: .touchDown)
+
+//        let stackViewHorizontal = UIStackView()
+//        stackViewHorizontal.addArrangedSubview(textField)
+//        stackViewHorizontal.addArrangedSubview(button)
+//        stackViewHorizontal.axis = .horizontal
+//        stackViewHorizontal.spacing = 10
         
+
+        
+//        stackView.addArrangedSubview(stackViewHorizontal)
         stackView.addArrangedSubview(textField)
     }
     
+//    @objc func doSomething(view: UIView) {
+//        view.superview?.removeFromSuperview()
+//    }
 }
 
